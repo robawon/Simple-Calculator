@@ -2,6 +2,7 @@
 using namespace std;
 
 void showmenu();
+int add(float,float);
 int subtraction(float,float);
 
 int main(){
@@ -14,7 +15,7 @@ int main(){
         case 1:
             cout<<"enter the numbers"<<endl;
             cin>>x>>y;
-            cout<<"the result is="<<endl;
+            cout<<"the result is="<<add(x,y)<<endl;
           break;
         case 2:
             cout<<"enter the numbers"<<endl;
@@ -49,6 +50,11 @@ void showmenu()
   cout<<"4: Division"<<endl;
   cout<<"5: Exit"<<endl;
   cout<<"Enter your choice"<<endl;
+}
+
+int add(float x,float y)
+{
+  return (x+y);
 }
 
 int subtraction(float x,float y)
