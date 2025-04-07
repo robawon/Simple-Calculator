@@ -3,6 +3,7 @@ using namespace std;
 
 void showmenu();
 int subtraction(float,float);
+int multiplication(float,float);
 
 int main(){
   float x,y;
@@ -54,4 +55,8 @@ void showmenu()
 int subtraction(float x,float y)
 {
   return (x-y);
+}
+int multiplication(float x,float y)
+{
+  return (x*y);
 }
