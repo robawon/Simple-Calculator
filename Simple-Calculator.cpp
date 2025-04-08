@@ -1,4 +1,4 @@
-#include <iostream>
+
 #include <stdexcept>
 
 double divide(int numerator, int denominator) {
