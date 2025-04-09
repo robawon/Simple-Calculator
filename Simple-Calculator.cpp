@@ -5,6 +5,7 @@ void showmenu();
 int add(float,float);
 int subtraction(float,float);
 int multiplication(float,float);
+int division(float,float);
 
 int main(){
   float x,y;
@@ -31,7 +32,7 @@ int main(){
         case 4:
             cout<<"enter the numbers"<<endl;
             cin>>x>>y;
-            cout<<"the result is="<<endl;
+            cout<<"the result is="<<division(x,y)<<endl;
           break;
         case 5:
             break;  
@@ -65,4 +66,8 @@ int subtraction(float x,float y)
 int multiplication(float x,float y)
 {
   return (x*y);
+}
+int division(float x,float y)
+{
+  return (x/y);
 }
