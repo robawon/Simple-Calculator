@@ -26,7 +26,7 @@ int main(){
         case 3:
             cout<<"enter the numbers"<<endl;
             cin>>x>>y;
-            cout<<"the result is="<<endl;
+            cout<<"the result is="<<multiplication(x,y)<<endl;
           break;
         case 4:
             cout<<"enter the numbers"<<endl;
