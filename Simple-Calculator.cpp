@@ -42,7 +42,7 @@ int main(){
 
 void showmenu()
 {
-  cout<<"menu"<<endl;
+  cout<<"\n--menu--\n"<<endl;
   cout<<"1: Addition"<<endl;
   cout<<"2: Subtraction"<<endl;
   cout<<"3: Multiplication"<<endl;
